@@ -57,7 +57,7 @@ def get_links(html):
 
 def store_page(col, url, html, target):
     # store page
-    document = { "_id": url,
+    document = { "url": url,
                  "html": html,
                  "target": target
     }
